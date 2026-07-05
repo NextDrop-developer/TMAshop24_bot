@@ -120,7 +120,7 @@ function App() {
             <button className="menu-btn" onClick={() => setScreen('support')}>
               <span>03.</span> Личные вопросы / Поддержка
             </button>
-            <a href="https://t.me/твой_основной_юзернейм" target="_blank" rel="noreferrer" className="menu-btn client-link">
+            <a href="https://t.me/sasha_8122" target="_blank" rel="noreferrer" className="menu-btn client-link">
               <span>04.</span> Контакт (Связаться в ЛС)
             </a>
           </div>
