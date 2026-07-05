@@ -72,7 +72,7 @@ function App() {
   const handleSupportSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/support', {
+      const response = await fetch('https://tmashop24-bot.onrender.com/api/support', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
