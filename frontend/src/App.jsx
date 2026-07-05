@@ -47,7 +47,7 @@ function App() {
   const handleOrderSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://tmashop24-bot.onrender.com/api/support', {
+      const response = await fetch('https://tmashop24-bot.onrender.com/api/order', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
